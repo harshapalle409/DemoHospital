@@ -1,0 +1,1 @@
+// DoctorCard.jsx - Placeholder content

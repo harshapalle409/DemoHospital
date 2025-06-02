@@ -1,0 +1,244 @@
+/* .home_unique_wrapper {
+    padding-top: 5rem;
+  }
+  
+  .home_unique_banner {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+  }
+  
+  .home_unique_title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d47a1;
+  }
+  
+  .home_unique_subtext {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .home_unique_carousel {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+  }
+  
+  .home_unique_slider {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .home_unique_slider img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+   */
+/* homeStyles.css */
+
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.home_unique_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* WhatsApp Floating Button */
+.float1 {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.float1:hover {
+  background-color: #1ebe57;
+}
+
+.my-float {
+  line-height: 60px;
+}
+
+/* Carousel */
+.home_unique_carousel {
+  margin-top: 20px;
+}
+
+.carousel-inner img {
+  border-radius: 8px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Feature Section */
+.feature-area {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.single-feature {
+  background: #f7f9fc;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.single-feature:hover {
+  transform: translateY(-10px);
+}
+
+.single-feature img {
+  max-width: 80px;
+  margin-bottom: 15px;
+}
+
+.single-feature h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.single-feature p {
+  color: #555;
+}
+
+/* Welcome Section */
+.welcome-area {
+  padding: 60px 0;
+  background-color: #f0f4f9;
+}
+
+.welcome-img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.welcome-text p {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.template-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.template-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Departments Section */
+.department-area {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.department-area h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.department-slider {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-bottom: 15px;
+}
+
+.single-slide {
+  min-width: 250px;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.single-slide:hover {
+  transform: translateY(-10px);
+}
+
+.slide-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.single-department {
+  padding: 20px;
+  text-align: center;
+}
+
+.single-department h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.single-department p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .department-slider {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .float1 {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    bottom: 20px;
+    right: 20px;
+  }
+}

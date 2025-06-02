@@ -1,0 +1,62 @@
+{
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "doctors": "Doctors",
+    "reviews": "Reviews",
+    "ambulance": "Ambulance",
+    "contact": "Contact",
+    "welcome_message": "Welcome to Our Hospital",
+    "language": "Language",
+
+
+    "cardiology": "Cardiology",
+    "cardiology_desc": "Heart-related care and treatments.",
+    "orthopedics": "Orthopedics",
+    "orthopedics_desc": "Bone and joint care services.",
+    "neurology": "Neurology",
+    "neurology_desc": "Brain and nervous system treatments.",
+    "ophthalmology": "Ophthalmology",
+    "ophthalmology_desc": "Eye care and vision solutions.",
+    "dentistry": "Dentistry",
+    "dentistry_desc": "Dental and oral health services.",
+    "pathology": "Pathology",
+    "pathology_desc": "Diagnostic laboratory testing.",
+
+    "our_doctors": "Our Doctors",
+    "dr_ravi": "Dr. Ravi Kumar",
+    "dr_suman": "Dr. Suman Verma",
+    "dr_latha": "Dr. Latha Reddy",
+    "cardiologist": "Cardiologist",
+    "orthopedic_surgeon": "Orthopedic Surgeon",
+    "neurologist": "Neurologist",
+    "experience": "Experience",
+    "languages": "Languages",
+    "lang_eng_tel": "English, Telugu",
+    "lang_eng_hin": "English, Hindi",
+    "lang_eng_tel_hin": "English, Telugu, Hindi",
+
+    "patient_reviews": "Patient Reviews",
+    "review_1_name": "Anjali Mehta",
+    "review_1_feedback": "The doctors were kind and professional. I felt truly cared for.",
+    "review_2_name": "Rahul Verma",
+    "review_2_feedback": "Clean facilities and excellent treatment. Highly recommend!",
+    "review_3_name": "Sita Reddy",
+    "review_3_feedback": "Staff was supportive during my recovery. Thank you!",
+
+    "ambulance_services": "Ambulance Services",
+    "ambulance_message": "For emergency medical transport, our ambulances are available 24/7.",
+    "emergency_number": "Emergency Number",
+    "call_now": "Call Now",
+
+
+ "contact_us": "Contact Us",
+  "phone": "Phone",
+  "email": "Email",
+  "whatsapp": "WhatsApp",
+
+  
+  "location_directions": "Location & Directions",
+  "hospital_address": "GVK One Mall, Road No. 1, Banjara Hills, Hyderabad, Telangana 500034"
+
+}

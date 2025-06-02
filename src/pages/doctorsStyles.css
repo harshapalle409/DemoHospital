@@ -1,0 +1,61 @@
+.doctors_unique_wrapper {
+    padding: 5rem 1rem 2rem;
+    background-color: #eef3f9;
+    min-height: 100vh;
+  }
+  
+  .doctors_unique_heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0a3d62;
+    margin-bottom: 2rem;
+  }
+  
+  .doctors_unique_grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .doctors_unique_card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+  
+  .doctors_unique_avatar {
+    background: #1565c0;
+    color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    font-size: 1.75rem;
+    line-height: 64px;
+    margin: 0 auto 1rem;
+    font-weight: bold;
+  }
+  
+  .doctors_unique_name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1a237e;
+  }
+  
+  .doctors_unique_specialty {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.25rem;
+  }
+  
+  .doctors_unique_exp,
+  .doctors_unique_lang {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  

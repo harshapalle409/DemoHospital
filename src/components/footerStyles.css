@@ -1,0 +1,11 @@
+.footer_unique_container {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+.footer_unique_text {
+  font-size: 0.95rem;
+}

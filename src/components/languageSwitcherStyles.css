@@ -1,0 +1,21 @@
+.language_switcher_unique {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.language_switcher_unique button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.language_switcher_unique button:disabled {
+  background-color: #004d40;
+  cursor: not-allowed;
+}
