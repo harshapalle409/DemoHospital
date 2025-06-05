@@ -29,6 +29,7 @@ import React from "react";
 import "./homeStyles.css";
 import { Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import { useTranslation } from '../context/LanguageContext';
 import image1 from '../images/image1.jpg';
 import image4 from '../images/image4.jpg';
 import image3 from '../images/image3.jpg';
@@ -41,6 +42,7 @@ import gyn from '../images/gyn-img.jpg';
 import ort from '../images/ort-img.jpg';
 import ped from '../images/ped-img.jpg';
 const HomePage = () => {
+  const { t } = useTranslation();
   return (
     <div className="home_unique_wrapper">
       {/* WhatsApp Button */}
@@ -72,22 +74,22 @@ const HomePage = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-feature">
                 <img src={feature1} alt="feature" />
-                <h3>Qualified Doctors</h3>
-                <p>We have highly qualified doctors for various departments.</p>
+                <h3>{t('qualified_doctors_heading')}</h3>
+                <p>{t('qualified_doctors_text')}</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="single-feature">
                 <img src={feature2} alt="feature" />
-                <h3>Advanced Equipment</h3>
-                <p>Our hospital is equipped with the latest medical technologies.</p>
+                <h3>{t('advanced_equipment_heading')}</h3>
+                <p>{t('advanced_equipment_text')}</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="single-feature">
                 <img src={feature3} alt="feature" />
-                <h3>Emergency Services</h3>
-                <p>24/7 emergency services with ambulance and ICU support.</p>
+                <h3>{t('emergency_services_heading')}</h3>
+                <p>{t('emergency_services_heading')}</p>
               </div>
             </div>
           </div>
@@ -103,13 +105,11 @@ const HomePage = () => {
             </div>
             <div className="col-md-6">
               <div className="welcome-text">
-                <h1>Welcome to Alavi Hospitals</h1>
-                <p>
-                  Alavi Hospitals provides compassionate healthcare with top-tier medical professionals and state-of-the-art equipment. We are committed to your health and well-being.
-                </p>
-                <a href="/services" className="template-btn mt-3">Explore Services</a>
+                <h1>{t('welcome_heading')}</h1>
+                <p>{t('welcome_text')}</p>
+                <a href="/services" className="template-btn mt-3">{t('explore_services_button')}</a>
               </div>
-            </div>
+            </div>  
           </div>
         </div>
       </section>
@@ -118,7 +118,7 @@ const HomePage = () => {
       <section className="department-area section-padding">
         <div className="container">
           <div className="text-center">
-            <h2>Our Departments</h2>
+            <h2>{t('our_departments_heading')}</h2>
           </div>
           <div className="department-slider">
             {/* Repeat this block for each department */}
@@ -127,8 +127,8 @@ const HomePage = () => {
                 <img src={car} alt="department" />
               </div>
               <div className="single-department">
-                <h3>Cardiology</h3>
-                <p>Advanced cardiac care for heart-related conditions.</p>
+                <h3>{t('cardiology_heading')}</h3>
+                <p>{t('cardiology_desc')}</p>
               </div>
             </div>
             <div className="single-slide">
@@ -136,16 +136,16 @@ const HomePage = () => {
                 <img src={gyn} alt="department" />
               </div>
               <div className="single-department">
-                <h3>GYNAECOLOGY & OBSTETRICS</h3>
-                <p>Personalized care for women's health, from screenings to advanced reproductive treatments</p>
+                <h3>{t('gynaecology_obstetrics_heading')}</h3>
+                <p>{t('gynaecology_obstetrics_desc')}</p>
               </div>
             </div><div className="single-slide">
               <div className="slide-img">
                 <img src={ped} alt="department" />
               </div>
               <div className="single-department">
-                <h3>PAEDIATRIC</h3>
-                <p>Comprehensive care for infants, children, and teens-from check-ups to specialized treatments.</p>
+                <h3>{t('paediatric_heading')}</h3>
+                <p>{t('paediatric_desc')}</p>
               </div>
             </div>
             <div className="single-slide">
@@ -153,8 +153,8 @@ const HomePage = () => {
                 <img src={ort} alt="department" />
               </div>
               <div className="single-department">
-                <h3>Orthopedics</h3>
-                <p>Expert orthopedic surgeons for bones and joints health.</p>
+                <h3>{t('orthopedics_heading')}</h3>
+                <p>{t('orthopedics_desc')}</p>
               </div>
             </div>
           </div>

@@ -6,19 +6,19 @@ const doctors = [
   {
     nameKey: 'dr_ravi',
     specialtyKey: 'cardiologist',
-    experience: '15+ years',
+    experienceKey: 'dr_ravi_experience',
     languagesKey: 'lang_eng_tel'
   },
   {
     nameKey: 'dr_suman',
     specialtyKey: 'orthopedic_surgeon',
-    experience: '12+ years',
-    languagesKey: 'lang_eng_hin'
+    experienceKey: 'dr_suman_experience',
+     languagesKey: 'lang_eng_hin'
   },
   {
     nameKey: 'dr_latha',
     specialtyKey: 'neurologist',
-    experience: '10+ years',
+    experienceKey: 'dr_latha_experience',
     languagesKey: 'lang_eng_tel_hin'
   }
 ];

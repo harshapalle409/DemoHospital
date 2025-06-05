@@ -3,8 +3,8 @@ import { useTranslation } from '../context/LanguageContext';
 import './servicesStyles.css';
 
 const servicesData = [
-  { icon: '❤️', titleKey: 'cardiology', descriptionKey: 'cardiology_desc' },
-  { icon: '🦴', titleKey: 'orthopedics', descriptionKey: 'orthopedics_desc' },
+  { icon: '❤️', titleKey: 'cardiology_heading', descriptionKey: 'cardiology_desc' },
+  { icon: '🦴', titleKey: 'orthopedics_heading', descriptionKey: 'orthopedics_desc' },
   { icon: '🧠', titleKey: 'neurology', descriptionKey: 'neurology_desc' },
   { icon: '👁️', titleKey: 'ophthalmology', descriptionKey: 'ophthalmology_desc' },
   { icon: '🦷', titleKey: 'dentistry', descriptionKey: 'dentistry_desc' },

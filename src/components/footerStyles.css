@@ -1,4 +1,4 @@
-.footer_unique_container {
+/* .footer_unique_container {
   background-color: #004d40;
   color: white;
   text-align: center;
@@ -8,4 +8,151 @@
 
 .footer_unique_text {
   font-size: 0.95rem;
+} */
+
+
+/* src/components/DemoHospitalFooter.css */
+.demo_hospital_footer___root_container {
+  background: linear-gradient(135deg, #0a3d62 0%, #1e5799 100%);
+  color: #ffffff;
+  padding: 45px 20px 20px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.demo_hospital_footer___content_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto 30px;
+  padding: 0 15px;
+}
+
+.demo_hospital_footer___section {
+  padding: 0 15px;
+}
+
+.demo_hospital_footer___section_title {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  position: relative;
+}
+
+.demo_hospital_footer___section_title::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background: #4cc9f0;
+}
+
+.demo_hospital_footer___description_text {
+  line-height: 1.7;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.demo_hospital_footer___services_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.demo_hospital_footer___service_item {
+  margin-bottom: 12px;
+  padding-left: 24px;
+  position: relative;
+  font-size: 0.95rem;
+  transition: transform 0.3s ease;
+}
+
+.demo_hospital_footer___service_item:hover {
+  transform: translateX(5px);
+  color: #4cc9f0;
+}
+
+.demo_hospital_footer___service_item::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4cc9f0;
+  font-size: 1.8rem;
+  top: -6px;
+}
+
+.demo_hospital_footer___location_entry {
+  display: flex;
+  margin-bottom: 22px;
+  align-items: flex-start;
+}
+
+.demo_hospital_footer___location_icon {
+  margin-right: 14px;
+  font-size: 1.3rem;
+  color: #4cc9f0;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.demo_hospital_footer___address_text {
+  line-height: 1.7;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.demo_hospital_footer___phone_container {
+  margin-top: 28px;
+}
+
+.demo_hospital_footer___phone_entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.demo_hospital_footer___phone_icon {
+  margin-right: 14px;
+  font-size: 1.3rem;
+  color: #4cc9f0;
+}
+
+.demo_hospital_footer___copyright_container {
+  text-align: center;
+  padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .demo_hospital_footer___content_wrapper {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  
+  .demo_hospital_footer___section {
+    margin-bottom: 35px;
+  }
+  
+  .demo_hospital_footer___section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .demo_hospital_footer___services_list {
+    grid-template-columns: 1fr;
+  }
 }

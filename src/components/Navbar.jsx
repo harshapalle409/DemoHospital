@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar_unique_wrapper">
-      <div className="navbar_unique_logo">🏥</div>
+      <div className="navbar_unique_logo">🏥ABC_Hospital</div>
       <div
         className="navbar_unique_toggle"
         onClick={() => setMenuOpen(!menuOpen)}
